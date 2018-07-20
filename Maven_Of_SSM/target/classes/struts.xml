@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+ 
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="false" />
+    <!-- struts结合spring的配置意思是  Struts2的action由Spring来负责进行实例化  -->
+    <constant name="struts.objectFactory" value="spring" />
+    <!-- 指定Struts2请求的后缀 -->
+	<constant name="struts.action.extension" value="do"></constant>
+	<!-- 去除Struts2ui标签自带的样式 -->
+	<constant name="struts.ui.theme" value="simple"></constant>
+	<constant name="struts.ui.templateDir" value="template"></constant>
+	<constant name="struts.ui.templateSuffix" value="ftl"></constant>
+    <!--编码字符集-->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+<!--     <package name="default" namespace="/" extends="struts-default"></package>
+ -->    
+       <!-- 用户模组 --> 
+	<package name="teacher" namespace="/" extends="struts-default">
+		<action name="getAllTeacher" class="com.mxf.action.TeacherAction" method="getAllTeacher">
+			<result name="success">/WEB-INF/jsp/allTeacher.jsp</result>
+		</action>
+		<!-- <action name="add" class="com.vteba.user.action.UserAction" method="add">
+			<result name="success">/WEB-INF/jsp/user/user-add.jsp</result>
+		</action> -->
+	</package>
+    
+</struts>

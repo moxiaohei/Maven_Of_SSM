@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:09:11:12 +0800] "GET /Maven_Of_SSM/teacher/getAllTeacher HTTP/1.1" 404 1019 http-bio-8080-exec-1 41
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:09:11:20 +0800] "GET /Maven_Of_SSM/teacher/getAllTeacher.do HTTP/1.1" 404 1025 http-bio-8080-exec-2 66
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:09:11:24 +0800] "GET /Maven_Of_SSM/teacher/getAllTeacher.action HTTP/1.1" 404 1033 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:09:35:28 +0800] "GET /Maven_Of_SSM/teacher/getAllTeacher HTTP/1.1" 404 1019 http-bio-8080-exec-1 45
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:09:35:31 +0800] "GET /Maven_Of_SSM/teacher HTTP/1.1" 404 991 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:09:35:43 +0800] "GET /Maven_Of_SSM/teacher/getAllTeacher HTTP/1.1" 404 1019 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:09:35:48 +0800] "GET /Maven_Of_SSM/teacher/getAllTeacher.do HTTP/1.1" 404 1025 http-bio-8080-exec-4 20
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:09:35:51 +0800] "GET /Maven_Of_SSM/teacher/getAllTeacher.action HTTP/1.1" 404 1033 http-bio-8080-exec-6 1
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:09:35:56 +0800] "GET / HTTP/1.1" 404 - http-bio-8080-exec-7 0
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:10:53:06 +0800] "GET /Maven_Of_SSM/getAllTeacher.do HTTP/1.1" 200 1182 http-bio-8080-exec-1 1247
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:10:53:06 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:10:53:08 +0800] "GET /Maven_Of_SSM/getAllTeacher.do HTTP/1.1" 200 1182 http-bio-8080-exec-4 7
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:10:53:10 +0800] "GET / HTTP/1.1" 404 - http-bio-8080-exec-7 0
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:10:53:13 +0800] "GET /Maven_Of_SSM HTTP/1.1" 302 - http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:10:53:13 +0800] "GET /Maven_Of_SSM/ HTTP/1.1" 404 977 http-bio-8080-exec-9 10
+0:0:0:0:0:0:0:1 - - [20/Jul/2018:10:53:22 +0800] "GET /Maven_Of_SSM/getAllTeacher.do HTTP/1.1" 200 1182 http-bio-8080-exec-10 6
